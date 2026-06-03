@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+}
+
+.mobile-frame {
+  width: 375px;   /* mobile width */
+  height: 812px;  /* mobile height */
+  border-radius: 20px;
+  overflow-y: auto;
+  background: #fff;
+  margin: 20px auto;   /* centers on screen */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.screen {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #6a0dad; /* purple */
+  color: #fff;
+}
+
+.secondary-btn {
+  background: #eee;
+  color: #6a0dad;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.form-group {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+/* Profile image wrapper with camera icon */
+.avatar-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;          /* full width */
+}
+
+.avatar-full {
+  width: 100%;          /* image fills container */
+  height: auto;         /* keep natural height */
+  border-radius: 0;     /* no circle, no rectangle corners */
+  object-fit: contain;  /* show entire image without cropping */
+  margin-bottom: 15px;
+}
+
+.camera-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #6a0dad;   /* purple circle */
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-header h2 {
+  font-size: 22px;
+  margin: 8px 0 4px 0;
+}
+
+.profile-header .email {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+.bio {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.4;
+}
